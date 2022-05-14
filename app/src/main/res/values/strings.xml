@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Macro_Catering_App</string>
+
+    <string name="title_home">Beranda</string>
+    <string name="title_messege">Pesan</string>
+    <string name="title_notifications">Notifikasi</string>
+    <string name="title_profile">Profil</string>
+
+    <string name="tumpeng_detail">Tumpeng</string>
+    <string name="pemesanan_detail">Pemesanan</string>
+    <string name="rekomendasi_catering">Rekomendasi Catering</string>
+
+    <string-array name="Metode_Pembayaran">
+        <item>Metode Pembayaran</item>
+        <item>Cash on Delivery</item>
+        <item>DANA</item>
+        <item>Transfer Bank
+
+                <item>Transfer Bank</item>
+                <item>BCA</item>
+                <item>BNI</item>
+                <item>BSI</item>
+                <item>MANDIRI</item>
+
+        </item>
+    </string-array>
+</resources>

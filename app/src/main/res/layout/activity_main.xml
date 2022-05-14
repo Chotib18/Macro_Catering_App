@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+
+        <SearchView
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectangle_search"
+            android:iconifiedByDefault="false"
+            android:textAlignment="center"
+            android:paddingVertical="6dp"
+            android:layout_marginRight="5dp"
+            android:queryHint="Cari Menu"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/picture_profile"
+            app:civ_border_color="@color/blue1"
+            app:civ_border_width="1dp" />
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="20sp">
+
+                <com.denzcoskun.imageslider.ImageSlider
+                    android:id="@+id/Img_Slider"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    app:iss_auto_cycle="true"
+                    app:iss_corner_radius="20"
+                    app:iss_period="2000"
+                    app:iss_title_background="@drawable/gradient"/>
+            </androidx.cardview.widget.CardView>
+
+            <include layout="@layout/fitur_menu"/>
+
+            <include layout="@layout/rekomendasi_menu" />
+
+            <include layout="@layout/activity_list_rekomendasi"/>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        android:background="@drawable/bg_navbar"
+        app:menu="@menu/menu_bottom_navbar"/>
+
+</LinearLayout>

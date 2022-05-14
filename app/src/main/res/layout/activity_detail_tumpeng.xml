@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="1dp"
+    tools:context=".Detail_Tumpeng">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/tumpeng1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:src="@drawable/c_tumpeng_2" />
+
+                <View
+                    android:layout_width="15dp"
+                    android:layout_height="10dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toStartOf="@+id/gambarbuahCLV"
+                        android:text="Ayu Catering"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_toStartOf="@+id/gambarbuahCLV"
+                        android:text="Tumpeng Mini"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_toStartOf="@+id/gambarbuahCLV"
+                        android:text="5,5 km."
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:textSize="14dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/star"
+                            android:backgroundTintMode="src_atop"
+                            android:layout_gravity="left"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/star"
+                            android:backgroundTintMode="src_atop"
+                            android:layout_gravity="left"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/star"
+                            android:backgroundTintMode="src_atop"
+                            android:layout_gravity="left"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/star"
+                            android:backgroundTintMode="src_atop"
+                            android:layout_gravity="left"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/star_half"
+                            android:backgroundTintMode="src_atop"
+                            android:layout_gravity="left"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:gravity="center_vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:drawableTint="@color/black"
+                        android:text="4,4"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:textSize="14dp"/>
+
+            </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tumpeng2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:src="@drawable/c_tumpeng_2" />
+
+                <View
+                    android:layout_width="15dp"
+                    android:layout_height="10dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toStartOf="@+id/gambarbuahCLV"
+                        android:text="Ayu Catering"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_toStartOf="@+id/gambarbuahCLV"
+                        android:text="Tumpeng Mini"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_toStartOf="@+id/gambarbuahCLV"
+                        android:text="5,5 km."
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:textSize="14dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/star"
+                            android:backgroundTintMode="src_atop"
+                            android:layout_gravity="left"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/star"
+                            android:backgroundTintMode="src_atop"
+                            android:layout_gravity="left"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/star"
+                            android:backgroundTintMode="src_atop"
+                            android:layout_gravity="left"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/star"
+                            android:backgroundTintMode="src_atop"
+                            android:layout_gravity="left"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/star_half"
+                            android:backgroundTintMode="src_atop"
+                            android:layout_gravity="left"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:gravity="center_vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:drawableTint="@color/black"
+                        android:text="4,4"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:textSize="14dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tumpeng3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:src="@drawable/c_tumpeng_2" />
+
+                <View
+                    android:layout_width="15dp"
+                    android:layout_height="10dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toStartOf="@+id/gambarbuahCLV"
+                        android:text="Ayu Catering"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_toStartOf="@+id/gambarbuahCLV"
+                        android:text="Tumpeng Mini"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_toStartOf="@+id/gambarbuahCLV"
+                        android:text="5,5 km."
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:textSize="14dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/star"
+                            android:backgroundTintMode="src_atop"
+                            android:layout_gravity="left"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/star"
+                            android:backgroundTintMode="src_atop"
+                            android:layout_gravity="left"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/star"
+                            android:backgroundTintMode="src_atop"
+                            android:layout_gravity="left"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/star"
+                            android:backgroundTintMode="src_atop"
+                            android:layout_gravity="left"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/star_half"
+                            android:backgroundTintMode="src_atop"
+                            android:layout_gravity="left"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:gravity="center_vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:drawableTint="@color/black"
+                        android:text="4,4"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:textSize="14dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tumpeng4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:src="@drawable/c_tumpeng_2" />
+
+                <View
+                    android:layout_width="15dp"
+                    android:layout_height="10dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toStartOf="@+id/gambarbuahCLV"
+                        android:text="Ayu Catering"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_toStartOf="@+id/gambarbuahCLV"
+                        android:text="Tumpeng Mini"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_toStartOf="@+id/gambarbuahCLV"
+                        android:text="5,5 km."
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:textSize="14dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/star"
+                            android:backgroundTintMode="src_atop"
+                            android:layout_gravity="left"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/star"
+                            android:backgroundTintMode="src_atop"
+                            android:layout_gravity="left"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/star"
+                            android:backgroundTintMode="src_atop"
+                            android:layout_gravity="left"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/star"
+                            android:backgroundTintMode="src_atop"
+                            android:layout_gravity="left"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/star_half"
+                            android:backgroundTintMode="src_atop"
+                            android:layout_gravity="left"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:gravity="center_vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:drawableTint="@color/black"
+                        android:text="4,4"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:textSize="14dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tumpeng5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:src="@drawable/c_tumpeng_2" />
+
+                <View
+                    android:layout_width="15dp"
+                    android:layout_height="10dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toStartOf="@+id/gambarbuahCLV"
+                        android:text="Ayu Catering"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_toStartOf="@+id/gambarbuahCLV"
+                        android:text="Tumpeng Mini"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_toStartOf="@+id/gambarbuahCLV"
+                        android:text="5,5 km."
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:textSize="14dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/star"
+                            android:backgroundTintMode="src_atop"
+                            android:layout_gravity="left"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/star"
+                            android:backgroundTintMode="src_atop"
+                            android:layout_gravity="left"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/star"
+                            android:backgroundTintMode="src_atop"
+                            android:layout_gravity="left"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/star"
+                            android:backgroundTintMode="src_atop"
+                            android:layout_gravity="left"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/star_half"
+                            android:backgroundTintMode="src_atop"
+                            android:layout_gravity="left"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:gravity="center_vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:drawableTint="@color/black"
+                        android:text="4,4"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:textSize="14dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tumpeng6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:src="@drawable/c_tumpeng_2" />
+
+                <View
+                    android:layout_width="15dp"
+                    android:layout_height="10dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toStartOf="@+id/gambarbuahCLV"
+                        android:text="Ayu Catering"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_toStartOf="@+id/gambarbuahCLV"
+                        android:text="Tumpeng Mini"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_toStartOf="@+id/gambarbuahCLV"
+                        android:text="5,5 km."
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:textSize="14dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/star"
+                            android:backgroundTintMode="src_atop"
+                            android:layout_gravity="left"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/star"
+                            android:backgroundTintMode="src_atop"
+                            android:layout_gravity="left"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/star"
+                            android:backgroundTintMode="src_atop"
+                            android:layout_gravity="left"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/star"
+                            android:backgroundTintMode="src_atop"
+                            android:layout_gravity="left"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/star_half"
+                            android:backgroundTintMode="src_atop"
+                            android:layout_gravity="left"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:gravity="center_vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:drawableTint="@color/black"
+                        android:text="4,4"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:textSize="14dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tumpeng7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:src="@drawable/c_tumpeng_2" />
+
+                <View
+                    android:layout_width="15dp"
+                    android:layout_height="10dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toStartOf="@+id/gambarbuahCLV"
+                        android:text="Ayu Catering"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_toStartOf="@+id/gambarbuahCLV"
+                        android:text="Tumpeng Mini"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_toStartOf="@+id/gambarbuahCLV"
+                        android:text="5,5 km."
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:textSize="14dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/star"
+                            android:backgroundTintMode="src_atop"
+                            android:layout_gravity="left"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/star"
+                            android:backgroundTintMode="src_atop"
+                            android:layout_gravity="left"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/star"
+                            android:backgroundTintMode="src_atop"
+                            android:layout_gravity="left"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/star"
+                            android:backgroundTintMode="src_atop"
+                            android:layout_gravity="left"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/star_half"
+                            android:backgroundTintMode="src_atop"
+                            android:layout_gravity="left"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:gravity="center_vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:drawableTint="@color/black"
+                        android:text="4,4"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:textSize="14dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

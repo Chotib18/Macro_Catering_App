@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "40186961471",
+    "project_id": "makro-cateringku",
+    "storage_bucket": "makro-cateringku.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:40186961471:android:8b4f35ff6056f335a8628a",
+        "android_client_info": {
+          "package_name": "com.developer.macro_catering_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "40186961471-h3f45ra11tafmm1to0fpul4be4lb2cqo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.developer.macro_catering_app",
+            "certificate_hash": "370d423fbafce46825c1603c26156e2d6e75a542"
+          }
+        },
+        {
+          "client_id": "40186961471-72pa41hbud3cm1m5fjl2jk75ripb44n4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR5P56QSFBWjiFbBo3OE3Y2pq_4ApuDNg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "40186961471-72pa41hbud3cm1m5fjl2jk75ripb44n4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
